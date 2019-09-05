@@ -60,7 +60,7 @@
       <v-layout column align="center">
         <v-flex class="text-center mt-5">
           <v-avatar size="100">
-            <img src="/avatar-1.png" alt="avatar" />
+            <img src="@/assets/avatar-1.png" alt="avatar" />
           </v-avatar>
           <p class="grey--text subheading mt-1">
             This is an avatar

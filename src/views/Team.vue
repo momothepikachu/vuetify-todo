@@ -7,7 +7,7 @@
           <v-card flat class="ma-3 text-center">
             <v-img class="pt-4 align-center justify-center" src="">
               <v-avatar size="100" class="grey lighten-2">
-                <img :src="person.avatar" />
+                <img :src="require(`@/assets${person.avatar}`)" />
               </v-avatar>
             </v-img>
             <v-card-text>
@@ -31,9 +31,21 @@
 export default {
   data: () => ({
     team: [
-      { name: "The Net Ninja", role: "Web developer", avatar: "/avatar-1.png" },
-      { name: "Ryu", role: "Graphic designer", avatar: "/avatar-2.png" },
-      { name: "Chun Li", role: "Web developer", avatar: "/avatar-3.png" },
+      {
+        name: "The Net Ninja",
+        role: "Web developer",
+        avatar: "/avatar-1.png"
+      },
+      {
+        name: "Ryu",
+        role: "Graphic designer",
+        avatar: "/avatar-2.png"
+      },
+      {
+        name: "Chun Li",
+        role: "Web developer",
+        avatar: "/avatar-3.png"
+      },
       {
         name: "Gouken",
         role: "Social media maverick",
