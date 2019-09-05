@@ -1,0 +1,1 @@
+.project.done{border-left:4px solid #3cd1c2}.project.ongoing{border-left:4px solid orange}.project.overdue{border-left:4px solid tomato}.v-chip.theme--light.done:not(.v-chip--active){background:#3cd1c2}.v-chip.theme--light.ongoing:not(.v-chip--active){background:#ffaa2c}.v-chip.theme--light.overdue:not(.v-chip--active){background:#f83e70}
